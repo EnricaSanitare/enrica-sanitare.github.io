@@ -14,3 +14,7 @@ IMAGE DISPLAY UPDATE
 - Images are displayed with consistent frames and padding so the complete product remains visible.
 - The hero product photo is also contained rather than cropped.
 - No source product photo is cropped by the website layout.
+
+
+ADDRESS UPDATE
+Address added to English, Italian and Romanian contact sections. Image presentation revised with fixed, portrait-friendly frames and contain positioning to keep complete products visible.

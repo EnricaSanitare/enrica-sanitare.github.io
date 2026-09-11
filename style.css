@@ -36,18 +36,18 @@ footer{padding:28px 6vw;display:flex;justify-content:space-between;align-items:c
 
 
 /* Product photography */
-.hero-image{overflow:hidden;border:1px solid var(--line);background:#e9eef1}
-.hero-photo{display:block;width:100%;height:100%;min-height:500px;object-fit:cover;object-position:center}
-.product-image{overflow:hidden;padding:0}
-.product-image img{display:block;width:100%;height:100%;object-fit:cover;object-position:center}
+.hero-image{overflow:hidden;border:1px solid var(--line);background:#f4f7f9;display:flex;align-items:center;justify-content:center}
+.hero-photo{display:block;width:100%;height:100%;min-height:500px;object-fit:contain;object-position:center}
+.product-image{overflow:hidden;padding:18px;background:#f4f7f9}
+.product-image img{display:block;width:100%;height:100%;object-fit:contain;object-position:center}
 .gallery{padding:8vw 6vw;border-top:1px solid var(--line);background:#fff}
 .gallery-grid{display:grid;grid-template-columns:repeat(12,1fr);gap:18px}
 .gallery-grid figure{margin:0;border:1px solid var(--line);background:#fff;overflow:hidden}
 .gallery-grid figure:nth-child(1),.gallery-grid figure:nth-child(2){grid-column:span 3}
 .gallery-grid figure:nth-child(3){grid-column:span 2}
 .gallery-grid figure:nth-child(4),.gallery-grid figure:nth-child(5){grid-column:span 4}
-.gallery-grid img{display:block;width:100%;aspect-ratio:1/1;object-fit:cover}
-.gallery-grid figure:nth-child(4) img,.gallery-grid figure:nth-child(5) img{aspect-ratio:4/3}
+.gallery-grid img{display:block;width:100%;aspect-ratio:1/1;object-fit:contain;object-position:center;padding:14px;background:#f4f7f9}
+.gallery-grid figure:nth-child(4) img,.gallery-grid figure:nth-child(5) img{aspect-ratio:4/3;object-fit:contain}
 .gallery-grid figcaption{padding:13px 15px;font-size:12px;color:var(--muted)}
 @media(max-width:900px){.hero-photo{min-height:350px}.gallery-grid{grid-template-columns:repeat(2,1fr)}.gallery-grid figure,.gallery-grid figure:nth-child(n){grid-column:span 1}.gallery-grid figure:nth-child(4),.gallery-grid figure:nth-child(5){grid-column:span 2}}
 @media(max-width:520px){.gallery-grid{grid-template-columns:1fr}.gallery-grid figure:nth-child(n){grid-column:span 1}}

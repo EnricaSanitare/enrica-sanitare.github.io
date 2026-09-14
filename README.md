@@ -18,3 +18,8 @@ IMAGE DISPLAY UPDATE
 
 ADDRESS UPDATE
 Address added to English, Italian and Romanian contact sections. Image presentation revised with fixed, portrait-friendly frames and contain positioning to keep complete products visible.
+
+
+## v19 update
+- Production photography now uses a featured first image plus a responsive auto-advancing carousel for the remaining six production photos.
+- Removed the stray literal \n text after the hero section.

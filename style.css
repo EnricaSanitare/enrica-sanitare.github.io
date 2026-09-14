@@ -182,3 +182,13 @@ footer p{margin:0}
   .production-grid figure.production-wide{grid-column:auto}
   .production-grid img,.production-grid .production-wide img{height:300px}
 }
+
+
+/* v19: production photography carousel */
+.production-carousel{position:relative;margin-top:28px}
+.production-track{display:flex;gap:28px;overflow:hidden;scroll-behavior:smooth;scroll-snap-type:x mandatory;padding:4px 2px 12px}
+.production-card{flex:0 0 calc((100% - 84px)/4);min-width:0;scroll-snap-align:start;margin:0;background:#f4f7f9;overflow:hidden}
+.production-card img{display:block;width:100%;height:390px;object-fit:cover;object-position:center}
+.production-carousel .carousel-arrow{top:195px}
+@media(max-width:1199px){.production-card{flex-basis:calc((100% - 56px)/3)}.production-carousel .carousel-arrow.prev{left:-16px}.production-carousel .carousel-arrow.next{right:-16px}}
+@media(max-width:759px){.production-track{gap:18px}.production-card{flex-basis:100%}.production-card img{height:360px}.production-carousel .carousel-arrow{top:180px;width:40px;height:40px}.production-carousel .carousel-arrow.prev{left:8px}.production-carousel .carousel-arrow.next{right:8px}}

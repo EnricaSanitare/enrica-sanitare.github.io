@@ -250,3 +250,9 @@ nav,.langs,.lang-code,.eyebrow,.number,.facts span,.cap-list strong,.form-field 
 /* Keep the manufacturing heading and description in one vertical column. */
 .business .section-heading{display:block;align-items:initial}
 .business .section-heading>p{max-width:780px;margin:24px 0 0}
+
+/* v24: text-only language selector */
+.langs{display:inline-flex;align-items:center;gap:0;font-size:var(--fs-small)!important}
+.langs a{display:inline-flex;align-items:center;padding:4px 5px;text-decoration:none}
+.langs .flag{display:none!important}
+.lang-sep{font-size:var(--fs-small)!important;color:var(--muted);user-select:none}

@@ -23,3 +23,6 @@ Address added to English, Italian and Romanian contact sections. Image presentat
 ## v19 update
 - Production photography now uses a featured first image plus a responsive auto-advancing carousel for the remaining six production photos.
 - Removed the stray literal \n text after the hero section.
+
+
+Typography v23: Roboto only, with four sizes: 15px small, 18px body, 40px headings, 64px hero. Contract Manufacturing heading and description are vertically stacked.

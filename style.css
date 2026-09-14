@@ -216,3 +216,19 @@ footer p{margin:0}
   .contact-map-block .map-embed,.contact-map-block .map-embed iframe{min-height:280px;height:280px}
   .contact-form{padding-top:30px}
 }
+
+
+/* v21 refinements */
+nav{font-size:14px}.langs{gap:10px;font-size:13px}.langs a{display:inline-flex;align-items:center;gap:5px;padding:4px 3px}.flag{font-size:16px;line-height:1}.lang-code{font-size:12px}
+.lead{font-size:19px}.section-intro{font-size:18px}.section-heading>p{font-size:17px}.business-card p{font-size:16px}.business-card h3{font-size:32px}.business-card li{font-size:15px}.product-copy h3{font-size:25px}.product-copy p:last-child{font-size:15px}.contact-info-block .contact-item a:not(.map-link){font-size:19px}.contact-address{font-size:16px}
+.production-feature{grid-template-columns:minmax(280px,.78fr) minmax(0,1.22fr)}.production-feature-image{min-height:370px;max-height:370px}.production-feature-image img{min-height:370px;max-height:370px;object-position:center}
+.product-image{height:320px}.production-card img{height:335px}.production-carousel .carousel-arrow{top:167px}
+.contact-main{margin-bottom:0}
+.contact-form{display:none!important}
+@media(max-width:759px){.product-track .product-image{height:320px}.production-card img{height:320px}.production-carousel .carousel-arrow{top:160px}}
+@media(max-width:700px){.production-feature-image,.production-feature-image img{min-height:300px;max-height:300px}}
+
+/* v22: integrate Our Products into the Production section */
+.production-products{margin-top:72px;padding-top:56px;border-top:1px solid var(--line)}
+.production-products .section-heading{margin-bottom:28px}
+@media(max-width:759px){.production-products{margin-top:54px;padding-top:42px}}

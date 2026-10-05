@@ -272,3 +272,11 @@ nav,.langs,.lang-code,.eyebrow,.number,.facts span,.cap-list strong,.form-field 
 
 /* v26 contact form label alignment */
 .form-field label{margin-left:12px}
+
+/* v27 contact form field colors */
+.form-field input,.form-field textarea{background:#397BA8;color:#FFFFFF;border-color:#397BA8}
+.form-field input::placeholder,.form-field textarea::placeholder{color:rgba(255,255,255,.85)}
+.form-field input:focus,.form-field textarea:focus{border-color:#397BA8;box-shadow:0 0 0 2px rgba(57,123,168,.25)}
+.form-field label{color:#397BA8}
+.contact-form .button.dark{background:#397BA8;border-color:#397BA8;color:#FFFFFF}
+.contact-form .button.dark:hover{background:#030303;border-color:#030303;color:#FFFFFF}

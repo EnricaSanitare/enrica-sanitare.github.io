@@ -256,3 +256,16 @@ nav,.langs,.lang-code,.eyebrow,.number,.facts span,.cap-list strong,.form-field 
 .langs a{display:inline-flex;align-items:center;padding:4px 5px;text-decoration:none}
 .langs .flag{display:none!important}
 .lang-sep{font-size:var(--fs-small)!important;color:var(--muted);user-select:none}
+
+
+/* v25: contact form first, address and map underneath */
+.contact-form{display:block!important;max-width:none;margin:0 0 48px;padding:28px 0 0;border-top:1px solid var(--line)}
+.contact-location{display:grid;grid-template-columns:minmax(280px,.72fr) minmax(480px,1.28fr);gap:48px;align-items:stretch;padding-top:40px;border-top:1px solid var(--line)}
+.contact-address-block{padding:22px 0;border-top:1px solid var(--line);border-bottom:1px solid var(--line);display:flex;flex-direction:column;justify-content:center;gap:8px}
+.contact-address-block>span{font-size:var(--fs-small);font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+.contact-address-block .contact-address{font-size:var(--fs-body)}
+.contact-location .contact-map-block{min-width:0}
+.contact-location .map-embed{height:100%;min-height:320px;margin:0}
+.contact-location .map-embed iframe{height:100%;min-height:320px}
+@media(max-width:900px){.contact-location{grid-template-columns:1fr;gap:30px;padding-top:30px}.contact-location .map-embed,.contact-location .map-embed iframe{min-height:320px;height:320px}.contact-form{margin-bottom:38px}}
+@media(max-width:520px){.contact-form{padding-top:22px;margin-bottom:30px}.contact-location{padding-top:24px}.contact-location .map-embed,.contact-location .map-embed iframe{min-height:280px;height:280px}}

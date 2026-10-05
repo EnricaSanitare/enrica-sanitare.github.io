@@ -269,3 +269,6 @@ nav,.langs,.lang-code,.eyebrow,.number,.facts span,.cap-list strong,.form-field 
 .contact-location .map-embed iframe{height:100%;min-height:320px}
 @media(max-width:900px){.contact-location{grid-template-columns:1fr;gap:30px;padding-top:30px}.contact-location .map-embed,.contact-location .map-embed iframe{min-height:320px;height:320px}.contact-form{margin-bottom:38px}}
 @media(max-width:520px){.contact-form{padding-top:22px;margin-bottom:30px}.contact-location{padding-top:24px}.contact-location .map-embed,.contact-location .map-embed iframe{min-height:280px;height:280px}}
+
+/* v26 contact form label alignment */
+.form-field label{margin-left:12px}
